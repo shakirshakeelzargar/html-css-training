@@ -4,4 +4,4 @@
     Todo:
         1. Install VS Code, Git
         2. VS code extensions: live server, prettier, git lens
-        
+        3. Create Github account
