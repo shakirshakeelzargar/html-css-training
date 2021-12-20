@@ -1,0 +1,7 @@
+20/12/2021
+    Some basic html tags
+    p,div,input, table, heading, form, button,footer,image,anchor,lists, format, section, favicon,title
+    Todo:
+        1. Install VS Code, Git
+        2. VS code extensions: live server, prettier, git lens
+        
