@@ -3,8 +3,8 @@ body {
   padding: 0px;
 }
 
-.hello {
-  background-color: aqua;
+.div1 {
+  background-color: rgb(197, 233, 233);
   display: flex;
   width: 100vw;
   height: 100vh;
