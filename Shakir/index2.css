@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+.parentDiv{
+    background-color: aqua;
+    color: brown;
+    width:100vw;
+    height: 100vh;
+    display :flex;
+    align-items:center;
+    justify-content:space-evenly
+}
+.child1{
+    padding: 5px;
+    border:5px groove red;
+    border-radius: 10px 0 10px 0px;
+    /* outline: 3px solid green; */
+    box-shadow: 5px 5px  green;
+    text-shadow: 1px 1px  green;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.child1:hover{
+    cursor:pointer;
+}
+
+.div1{
+    width: 200px;
+    height: 100px;
+    background-color: cyan;
+    z-index: 2;
+}
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(235, 35, 165);
+    position: fixed;
+    top:10px;
+    z-index: 1;
+}

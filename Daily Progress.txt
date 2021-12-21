@@ -8,3 +8,13 @@
 
 
 21/12/2021
+    Git basic commands: add, commit, push, pull, clone, merge conflicts, branches, pull requests
+    CSS: margin, padding, height, width, flex, flex direction, justify content, align items, borders, outline, font, shadow, color, bg color
+
+    Todo: 
+    1. CLone the repo locally, create your folder, add your html/css files, commit and push. Try to create your PR.
+    2. Play with the above html/css tags/properties
+    3. Try out z-index
+    4. tryout calc.
+
+
