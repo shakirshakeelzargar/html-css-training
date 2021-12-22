@@ -13,16 +13,19 @@ header{
     height: 50px;
     background: gray;
     width: 100%;
-    position: fixed;
+
 }
 .logo{
     float: left;
-    line-height: 80px;
+    line-height: 100px;
+    margin-top: 0px;
+
 }
 nav{
     float: right;
-    font-family:'Raleway', sans-serif;;
+    font-family:'Raleway', sans-serif;
     line-height:50px ;
+
 }
 nav a{
     text-decoration: none;
@@ -31,4 +34,33 @@ nav a{
     margin: 0 20px;
     color: black;
 }
+.quote h1  {
+    font-size: 7em;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    position: sticky;
+    top: 70px;
+    background-color: orange;
+    padding: 50px;
+}
+.quote h2  {
+    font-size: 5em;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 300px;
+    z-index: -1;
+}
+.quote h3  {
+    font-size: 4em;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 350px;
+    left:-10px;
+    z-index:-1;
+    
+}
+
+
 
