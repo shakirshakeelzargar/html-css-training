@@ -1,0 +1,60 @@
+
+/* Styling for header and children */
+.header{
+    padding : 80px;
+    text-align: center;
+    background-color: mediumslateblue;
+    color: white;
+    height: ;
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+.header p{
+    font-size: 32px;
+}
+
+/* Basic navbar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.navbar a.right{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Separating columns */
+.row{
+    display: flex;
+    /* flex-wrap: wrap; was causing errors as size of the screen was smaller than anticipated */
+}
+
+.side{
+    /* width: 30%; */
+    background-color: lightgray;
+    padding: 20px;
+    flex: 1;
+}
+
+.main{
+    /* width: 70%; */
+    background-color: white;
+    padding: 20px;
+    flex: 3;
+}
