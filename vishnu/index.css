@@ -21,3 +21,12 @@
     background-color: #ddd;
     color: black;
   }
+  body{
+      margin :0;
+      padding :0;
+  }
+  .image{
+      display:flex;
+      align-items: center;
+      
+  }
