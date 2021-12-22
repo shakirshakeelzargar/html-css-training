@@ -1,4 +1,4 @@
-.top box {
+.top_box {
     background:#043d4d; 
     
     width: 100%;
@@ -7,7 +7,7 @@
     top:0;
     float:left;
   }
-  .top box a{
+  .top_box a{
     text-decoration: none;
     
     text-align: center;
@@ -17,7 +17,7 @@
     
     float: right;
   }
-  .topbox a:hover{
+  .top_box a:hover{
     background-color: #ddd;
     color: black;
   }
