@@ -17,4 +17,14 @@
     3. Try out z-index
     4. tryout calc.
 
+22/12/2021
+    Revisit Github Issues
+    CSS: z-index, calc, position,
+    Yelllow page extensions
+
+    Todo: 
+    1. Give an example of Var by tomorrow
+    2. Give an example of sticky
+    3. Demo css transitions - Nitin
+    4. Demo css animations - Amir, Sreekaran
 
