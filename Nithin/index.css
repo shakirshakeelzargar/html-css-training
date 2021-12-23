@@ -2,6 +2,29 @@ body{
     margin: 0;
     padding: 0;
 }
-.nav{
-    background-color: rebeccapurple;
+.btn1{
+    background-color: yellowgreen;
+    outline: none;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    transition: 2s;
+}
+.btn1:hover{
+    background-color: red;
+}
+.btn2{
+    background-color: yellowgreen;
+    outline: none;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    transition: 2s;
+    transition-delay: 1s;
+    /* transition-duration: 1s; */
+    margin: 5vh 0 0 0;
+}
+.btn2:hover{
+    background-color: red;
+    width: 40vh;
 }
