@@ -1,9 +1,13 @@
+:root{
+    --primaryColor:#f6f8fb;
+    --secondaryColor:#eeeeee;
+}
 body{
     margin: 0;
     padding: 0;
 }
 div{
-    background-color: #f6f8fb;
+    background-color: var(--primaryColor);
     height: 35px;
     align-items: center;
     justify-content:space-between;
@@ -11,7 +15,7 @@ div{
 }
 .search{
     border-radius: 20px;
-    border: 1px #eeeeee solid;
+    border: 1px var(--secondaryColor) solid;
     height: 30px;
     width: 350px;
     padding-left: 15px;
