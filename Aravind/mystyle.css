@@ -1,0 +1,23 @@
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+    --balck: #000000;
+    --font : italic;
+    --border: 2px solid black;
+  }
+body{
+    text-align: center;
+    color: var(--black);
+    background: var(--blue) ;
+    font-style: var(--font);
+    border: var(--border);
+    
+}
+div.sticky {
+   
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+  }
