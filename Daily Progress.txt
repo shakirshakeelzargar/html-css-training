@@ -28,3 +28,17 @@
     3. Demo css transitions - Nitin
     4. Demo css animations - Amir, Sreekaran
 
+23/12/2021
+    Css animations, transitions.
+    Javascript basics, variables, functions, loops, if else, objects, arrays, arrow functions
+    array methods: map, filter, some ,....
+    set timeout, interval
+
+    TODO:
+    Callbacks
+    Callback Hell
+    Promises
+    Async Await
+    
+
+
