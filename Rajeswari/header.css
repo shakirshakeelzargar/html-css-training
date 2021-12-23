@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: #f6f8fb;
+    height: 35px;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+}
+.search{
+    border-radius: 20px;
+    border: 1px #eeeeee solid;
+    height: 30px;
+    width: 350px;
+    padding-left: 15px;
+}
+.menu-icon{
+    height: 26px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    padding: 0px 10px;
+}
