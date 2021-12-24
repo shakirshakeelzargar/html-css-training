@@ -1,0 +1,60 @@
+.navigationBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(236, 57, 57);
+  float: left;
+  text-align: center;
+  width: 100vw;
+}
+li {
+  float: left;
+}
+li a {
+  text-align: centre;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+  display: block;
+  color: white;
+}
+.im {
+  border: solid;
+  border-radius: 50%;
+  padding: 4px 4px 4px 4px;
+}
+
+/* CSS Animation */
+.animation {
+  position: relative;
+  animation-name: firstAnimation;
+  animation-duration: 30s;
+  animation-iteration-count: 30;
+  animation-direction: alternate;
+}
+@keyframes firstAnimation {
+  0% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: white;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: white;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: white;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+}
