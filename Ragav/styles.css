@@ -102,23 +102,29 @@ h1 {
   position: fixed;
 }
 .shoe {
+  transform: translate(400px, -350px);
   position: relative;
-  animation: slide-in-anim2 1s ease-in forwards;
+  animation: slide-in-anim2 2s ease-in forwards;
+  transition: 1s;
+}
+.shoe:hover {
+  transform: translate(700px, -350px);
 }
 
 @keyframes slide-in-anim2 {
-  20% {
+  0% {
     opacity: 0;
-  }
-  60% {
-    transform: translateX(-100px, -350px);
-  }
-  75% {
-    transform: translateX(-250px, -350px);
   }
   100% {
     opacity: 1;
-    transform: translateX();
-    transform: translate(400px, -350px);
   }
+}
+.font {
+  position: fixed;
+  z-index: -1;
+  left: 200px;
+  margin-left: 45%;
+  transform: translateX(-200%);
+  opacity: 0;
+  animation: slide-in-anim 4s ease-in-out forwards;
 }
