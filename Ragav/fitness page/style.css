@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(image/Pushup+Background.jpg);
+    background-size: 100%;
+    overflow: hidden;
+}    
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    margin: 0 20px 60px 70px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
+    color: rgba(243, 189, 13, 0.973);
+}
+.content{
+    margin-left: 15%;
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    animation: 1.5s slide-right;
+}
+@keyframes slide-right{
+    from{
+        margin-left: -50%;
+        width:300%;
+    }
+    to{
+        margin-left: 15%;
+        width: 100%;
+    }
+}
+.content h1{
+    color: white;
+    font-size: 4rem;
+    line-height: 80px;
+    font-weight: 600;  
+}
+.content h1 span{
+    color: rgba(243, 189, 13, 0.973);
+}
+.content .btn2{
+    width: 130px;
+    height: 60px;
+    background-color: rgba(243, 189, 13, 0.973);
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 2vh;
+}
+.content .btn2:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}

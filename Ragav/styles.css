@@ -18,7 +18,7 @@ header {
   z-index: 3;
 }
 .logo {
-  float: left;
+  float:left;
   line-height: 100px;
   margin-top: 0px;
 }
@@ -80,20 +80,14 @@ h1 {
   60% {
     transform: translateX(-45%);
   }
-  75% {
-    transform: translateX(-52%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(-50%);
-  }
+  
 }
 
 .nike {
   opacity: 10%;
   position: fixed;
-  top: 50px;
-  left: 300px;
+  top: 250px;
+  left: 500px;
   transform: scale(1.7);
 }
 .quote {
@@ -102,14 +96,13 @@ h1 {
   position: fixed;
 }
 .shoe {
-  transform: translate(400px, -350px);
+  /*transform: translate(400px, -350px);*/
+  transform: translate(900px, -350px);
   position: relative;
   animation: slide-in-anim2 2s ease-in forwards;
   transition: 1s;
 }
-.shoe:hover {
-  transform: translate(700px, -350px);
-}
+
 
 @keyframes slide-in-anim2 {
   0% {
