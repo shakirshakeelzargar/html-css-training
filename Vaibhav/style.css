@@ -1,27 +1,39 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
   background-color: #f0f2f5;
 }
 
-.container{
-  position:fixed;
+.container {
+  position: fixed;
   top: 30%;
   left: 50%;
-  width:30em;
-  height:18em;
-  margin-top: -9em; 
+  width: 30em;
+  height: 18em;
+  margin-top: -9em;
   margin-left: -15em;
 }
 
-.title{
+.title {
   color: #0863da;
   text-align: center;
   font-size: 50px;
   font-weight: 900;
 }
 
-.loginBox{
+.loginBox {
   background-color: white;
   border: 1px solid #ccc;
+  padding: 0px 20px 50px 20px;
+}
+
+.fields {
+}
+
+.email {
+  padding: 0px 0px 20px 0px;
+}
+
+.password {
+  padding: 0px 0px 20px 0px;
 }
