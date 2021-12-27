@@ -36,7 +36,7 @@
             let passwordElem = document.getElementById('id_password')
             for (let i = 0; i < user.length; i++) {
             
-            if(usernameElem.value ===user.name[0] && passwordElem.value===user.password[0]){
+            if(usernameElem.value === user[i].name && passwordElem.value===user[i].password){
                 console.log("Successfully Logged in")
                 let parentdiv = document.getElementById('home')
                 parentdiv.innerHTML=`<div>Welcome Back ${usernameElem.value}</div>`
