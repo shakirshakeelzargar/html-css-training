@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="facebook.css">
+    <script>
+        const HandleLogin = ()=>{
+            const user = [
+            {
+                name : "user1",
+                password : "pass1"
+            },
+            {
+                name : "user2",
+                password : "pass2"
+            },
+            {
+                name : "user3",
+                password : "pass3"
+            },
+            {
+                name : "user4",
+                password : "pass4"
+            },
+            {
+                name : "user5",
+                password : "pass5"
+            }
+                ]
+            // const user="user1"
+            // const pass = "pass1"
+            let usernameElem = document.getElementById('id_email')
+            let passwordElem = document.getElementById('id_password')
+            for (let i = 0; i < user.length; i++) {
+            
+            if(usernameElem.value ===user.name[0] && passwordElem.value===user.password[0]){
+                console.log("Successfully Logged in")
+                let parentdiv = document.getElementById('home')
+                parentdiv.innerHTML=`<div>Welcome Back ${usernameElem.value}</div>`
+                const logoutButton=document.createElement('button')
+                logoutButton.id="logout"
+                logoutButton.textContent="Logout"
+                parentdiv.appendChild(logoutButton)
+                logoutButton.onclick=()=>{
+                location.reload()
+            }
+
+            }
+            else{
+            console.log("I am clicked")
+        }
+        }
+           
+    }
+    </script>
+</head>
+<body>
+    <div class="home" id="home">
+        <img src="images/img_1.png" class="img_1">
+        <div class="form">
+            <p class="txt_1">Log in to Facebook</p><br>
+            <input type="email" placeholder="Email address or Phone number" name="email" id="id_email"><br>
+            <input type="password" placeholder="password" name="password" id="id_password"><br>
+            <input class="login_btn" onclick="HandleLogin()" type="submit" name="submit" value="Log In">
+        </div>
+    </div>
+</body>
+</html>
