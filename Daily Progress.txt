@@ -28,3 +28,31 @@
     3. Demo css transitions - Nitin
     4. Demo css animations - Amir, Sreekaran
 
+23/12/2021
+    Css animations, transitions.
+    Javascript basics, variables, functions, loops, if else, objects, arrays, arrow functions
+    array methods: map, filter, some ,....
+    set timeout, interval
+
+    TODO:
+    Callbacks
+    Callback Hell
+    Promises
+    Async Await
+
+24/12/2021
+    Callbacks
+    Callback Hell
+    Promises
+    Async Await
+    Dom manipulation
+
+    TODO:
+    1. Create Facebook Login Page. //Refer this URL:  https://www.facebook.com/login
+    2. Check username and password from a list of pre defined users.
+    3. Once Logged in, navigate to the welcome page.
+
+
+    
+
+
