@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
-div{
+div.header{
     background-color: var(--primaryColor);
     height: 35px;
     align-items: center;
@@ -29,4 +29,9 @@ div{
 }
 .menu li{
     padding: 0px 10px;
+}
+.img{
+    position: sticky;
+    top: 0;
+    width: 150px;
 }
