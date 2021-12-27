@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const handleLogin = ()=>{
+            const user="shakir"
+            const pass = "pass1"
+            let usernameElem = document.getElementById('username')
+            let passwordElem = document.getElementById('password')
+            if(usernameElem.value ===user && passwordElem.value===pass){
+                console.log("Successfully Logged in")
+                let parentdiv = document.getElementById('testdiv')
+                parentdiv.innerHTML=`<div>Welcome Back ${usernameElem.value}</div>`
+                const logoutButton=document.createElement('button')
+                logoutButton.id="logout"
+                logoutButton.textContent="Logout"
+                parentdiv.appendChild(logoutButton)
+                logoutButton.onclick=()=>{
+                location.reload()
+            }
+
+            }
+            else{
+                const message = document.getElementById("message");
+                if(message!==null){
+                    message.remove()
+                }
+                let parentdiv = document.getElementById('testdiv')
+                const newElem = document.createElement('div')
+                newElem.textContent="Incorrect details"
+                newElem.style.color="red"
+                newElem.id="message"
+                parentdiv.appendChild(newElem)
+                console.log("Incorrect details")
+            }
+            console.log("I am clicked")
+        }
+    </script>
+</head>
+<body>
+    <div id="testdiv">
+        <input id="username" type="text">
+        <input id="password" type="password">
+        <button onclick="handleLogin()">Log In</button>
+    </div>
+</body>
+</html>

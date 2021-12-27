@@ -3,7 +3,7 @@
     
     width: 100%;
     height: 50px;
-    position: obsolute;
+    position: sticky;
     top:0;
     float:left;
   }

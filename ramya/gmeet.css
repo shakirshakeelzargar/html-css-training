@@ -1,0 +1,44 @@
+h1{
+    
+    font-weight:20;
+    padding:0.1vw;
+    font-family:Roboto,Arial,sans-serif;
+    margin-top:1vw;
+    margin-block-start: 0vmin;
+    
+}
+p{
+    color:grey;
+    font-size: 20px;
+}
+button{
+ padding:10px 10px 10px 10px;
+ background-color:rgb(71, 105, 253);
+ color:white; 
+ font-size: 20px; 
+ font-weight:normal;
+ font-family:Roboto,Arial,sans-serif; 
+cursor:pointer;
+border-radius:5px;
+}
+input{
+    margin-left:40px;
+    width:20vw;
+    height:40px;
+    font-weight:bold;
+    border-radius:5px;
+    border:1px solid grey;
+    cursor:pointer;
+    
+}
+.para{
+    color:blue;
+    cursor:pointer;
+}
+.para1{
+    display:inline;
+}
+img.image1{
+    top:0;
+    position:sticky;
+}
