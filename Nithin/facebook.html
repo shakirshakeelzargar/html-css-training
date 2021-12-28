@@ -34,9 +34,9 @@
             // const pass = "pass1"
             let usernameElem = document.getElementById('id_email')
             let passwordElem = document.getElementById('id_password')
-            for (let i = 0; i < user.length; i++) {
-            
-            if(usernameElem.value ===user.name[0] && passwordElem.value===user.password[0]){
+            const ValidUser = user.some((val) => val.name === usernameElem.value && val.password === passwordElem.value)
+            console.log(ValidUser);
+            if( ValidUser){
                 console.log("Successfully Logged in")
                 let parentdiv = document.getElementById('home')
                 parentdiv.innerHTML=`<div>Welcome Back ${usernameElem.value}</div>`
@@ -45,16 +45,32 @@
                 logoutButton.textContent="Logout"
                 parentdiv.appendChild(logoutButton)
                 logoutButton.onclick=()=>{
-                location.reload()
+                location.reload() 
             }
+            
 
-            }
-            else{
-            console.log("I am clicked")
-        }
-        }
+        //     for (let i = 0; i < user.length; i++) {
+            
+        //     if(usernameElem.value === user[i].name && passwordElem.value===user[i].password){
+        //         console.log("Successfully Logged in")
+        //         let parentdiv = document.getElementById('home')
+        //         parentdiv.innerHTML=`<div>Welcome Back ${usernameElem.value}</div>`
+        //         const logoutButton=document.createElement('button')
+        //         logoutButton.id="logout"
+        //         logoutButton.textContent="Logout"
+        //         parentdiv.appendChild(logoutButton)
+        //         logoutButton.onclick=()=>{
+        //         location.reload()
+        //     }
+
+        //     }
+        //     else{
+        //     console.log("I am clicked")
+        // }
+        // }
            
     }
+}
     </script>
 </head>
 <body>
