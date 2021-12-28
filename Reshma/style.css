@@ -1,0 +1,19 @@
+:root{
+    --blue:rgb(0, 255, 213);
+    --white:rgb(255, 0, 76);
+    --green:rgb(0, 128, 38);
+}
+h1{
+    color: var(--blue);
+}
+.var1{
+    background-color: var(--white);
+}
+.sticky{
+    
+    position: sticky;
+    background-color: var(--green);
+    top:-20px;
+    padding: 10px;
+    text-align: center;
+}

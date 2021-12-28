@@ -1,0 +1,52 @@
+* {
+  background-color: rgb(232, 238, 238);
+}
+h1 {
+  padding: 100px;
+  margin-bottom: 5px;
+  color: #1877f2;
+  font-family: Calibri;
+  font-size: 60px;
+}
+
+.name {
+  margin: 10px;
+  margin-top: -60px;
+  padding: 20px;
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+}
+.mail {
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+.pass {
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+button {
+  background-color: white;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: white;
+  font-size: x-large;
+}
+p {
+  background-color: white;
+  text-align: center;
+  font-weight: 100px;
+  font-size: large;
+}
+.same {
+  background-color: white;
+  color: #1877f2;
+}
+
