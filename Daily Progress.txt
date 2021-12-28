@@ -66,8 +66,14 @@
         - Todo URL: https://jsonplaceholder.typicode.com/todos/200
         - Either have a submit button or else as soon as the text feild changes/updates, fetch and display the data
 
+28/12/2021
+    Javascript Exports/imports/Default imports
+    NodeJs basics, packages,
+    Basic API with ExpressJS
 
-
+    TODO:
+        1. Create a Simple API with Fastify
+        2. Implement Eslint and Prettier with your nodejs project
     
 
 
