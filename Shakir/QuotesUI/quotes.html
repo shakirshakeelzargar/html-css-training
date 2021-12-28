@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quotes.css" />
+    <script src="quotes.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>My Quotes</title>
+  </head>
+  <body>
+    <div class="root" id="root">
+        <input type="text">
+      <div class="loading" id="loading">
+        <img src="./loading.gif" alt="" />
+      </div>
+      <div class="header"><h1>Motivational Quotes</h1></div>
+      <div class="content">
+        <table class="striped">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Author</th>
+              <th>Quote</th>
+            </tr>
+          </thead>
+
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
