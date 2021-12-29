@@ -19,8 +19,8 @@
 
 22/12/2021
     Revisit Github Issues
-    CSS: z-index, calc, position,
-    Yelllow page extensions
+    CSS: z-index, calc, var, position,
+    Yelllow page Chrome Extensions
 
     Todo: 
     1. Give an example of Var by tomorrow
@@ -68,12 +68,28 @@
 
 28/12/2021
     Javascript Exports/imports/Default imports
+    Introduction to nodejs
+    Setting up first node app
     NodeJs basics, packages,
     Basic API with ExpressJS
 
     TODO:
         1. Create a Simple API with Fastify
         2. Implement Eslint and Prettier with your nodejs project
+
+
+29/12/2021
+Express Middlewares, JWT Authentication, Create Token, Validate Token, Secure Routes
+Created a simple ecom with login, get products, get orders
+
+    TODO:
+        1. Implement JWT with Fastify
+        2. Set token expiration to 1 minute
+        3. Check wether token is expired or not
+            - Create a social network
+            - Create Login
+            - Create Posts (secured Routes)
+            - Friends (secured Routes)
     
 
 
