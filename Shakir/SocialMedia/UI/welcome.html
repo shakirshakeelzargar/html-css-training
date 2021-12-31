@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+    <script src="./welcome.js"></script>
+    <style>
+        a{
+    color:#47649F;
+}
+
+body{
+    font-family:'helvetica';    
+}
+
+/*-- Bootstrap Override Style --*/
+
+
+/*-- Content Style --*/
+.post-footer-option li{
+    float:left;
+    margin-right:50px;
+    padding-bottom:15px;
+}
+
+.post-footer-option li a{
+    color:#AFB4BD;
+    font-weight:500;
+    font-size:1.3rem;
+}
+
+.photo-profile{
+    border:1px solid #DDD;    
+}
+
+.anchor-username h4{
+    font-weight:bold;    
+}
+
+.anchor-time{
+    color:#ADB2BB;
+    font-size:1.2rem;
+}
+.root{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.createpost{
+    width: 50vw;
+    margin-left: 50px;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="createpost">
+    <div class="form-group">
+        <label for="description">Upload Post</label>
+        <textarea id="createpost"rows="5" columns  ="30" class="form-control" name="description" ></textarea>
+        <button onclick = "handleCreate()"type="submit" class="btn btn-primary">
+            Create
+        </button>
+    </div>
+</div>
+    <div id="root">
+    
+</div>
+</body>
+</html>

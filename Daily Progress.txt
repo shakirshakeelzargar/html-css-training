@@ -90,6 +90,49 @@ Created a simple ecom with login, get products, get orders
             - Create Login
             - Create Posts (secured Routes)
             - Friends (secured Routes)
+
+
+Team1:
+Chandraprakash
+Kaavyan
+Aravind
+Amir - C
+1. 
+chars: 359
+match: 90%
+score: 399.38
+2.
+chars: 694
+match: 97.8%
+score: 554.79
+
+Team2:
+Nithin - C
+Penchlaiyah
+Ragavendra
+Rajeswari
+1.
+chars: 826
+match: 84.3%
+score: 283.52
+2.
+chars: 1224
+match: 82.4%
+score: 245.46
+
+Team3:
+Ramya
+Reshma
+Sreekaran
+Vaibhav - C
+1.
+chars: 1914
+match: 97.1%
+score: 538.66
+2.
+chars: 1105
+match: 88.1%
+score: 360.48
     
 
 

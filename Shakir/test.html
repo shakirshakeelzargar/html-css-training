@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.onload = function(){
+            const em=document.getElementById('test');
+        const html = [0,1,2,3,4,5,6,7,8,9].map((e)=>{return '<div class="child" id="child">He is a child</div>'}).join('\n')
+        em.innerHTML=html;
+};
+        
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="test" id="test"></div>
+    
+</body>
+</html>
